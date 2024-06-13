@@ -1,0 +1,266 @@
+INFO - 2023-12-20 03:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 03:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 03:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 03:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 03:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-20 03:39:40 --> Invalid file: "bagian_dprd/get.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bagian_dprd/get.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('bagian_dprd/get', [], true)
+ 3 APPPATH\Controllers\BagianDPRDController.php(15): view('bagian_dprd/get', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BagianDPRDController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BagianDPRDController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-20 03:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-20 03:42:36 --> Invalid file: "bagian_dprd/get.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bagian_dprd/get.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('bagian_dprd/get', [], true)
+ 3 APPPATH\Controllers\BagianDPRDController.php(15): view('bagian_dprd/get', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BagianDPRDController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BagianDPRDController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-20 03:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-20 03:42:37 --> Invalid file: "bagian_dprd/get.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bagian_dprd/get.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('bagian_dprd/get', [], true)
+ 3 APPPATH\Controllers\BagianDPRDController.php(15): view('bagian_dprd/get', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BagianDPRDController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BagianDPRDController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-20 03:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 03:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-20 03:42:40 --> Invalid file: "bagian_dprd/get.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bagian_dprd/get.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('bagian_dprd/get', [], true)
+ 3 APPPATH\Controllers\BagianDPRDController.php(15): view('bagian_dprd/get', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BagianDPRDController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BagianDPRDController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-20 03:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 03:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 03:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 03:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 03:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-20 03:59:05 --> Undefined constant "bagian_dprd"
+in APPPATH\Views\layout\tema.php on line 204.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layout/tema', [], true)
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('bagian_dprd/index', [], true)
+ 5 APPPATH\Controllers\BagianDPRDController.php(15): view('bagian_dprd/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BagianDPRDController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BagianDPRDController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-20 03:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-20 03:59:37 --> Undefined constant "bagian_dprd"
+in APPPATH\Views\layout\tema.php on line 204.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layout/tema', [], true)
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('bagian_dprd/index', [], true)
+ 5 APPPATH\Controllers\BagianDPRDController.php(15): view('bagian_dprd/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BagianDPRDController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BagianDPRDController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-20 03:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-20 03:59:50 --> Undefined constant "bagian_dprd"
+in APPPATH\Views\layout\tema.php on line 204.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layout/tema', [], true)
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('bagian_dprd/index', [], true)
+ 5 APPPATH\Controllers\BagianDPRDController.php(15): view('bagian_dprd/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BagianDPRDController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BagianDPRDController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-20 03:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-20 03:59:51 --> Undefined constant "bagian_dprd"
+in APPPATH\Views\layout\tema.php on line 204.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layout/tema', [], true)
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('bagian_dprd/index', [], true)
+ 5 APPPATH\Controllers\BagianDPRDController.php(15): view('bagian_dprd/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BagianDPRDController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BagianDPRDController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-20 03:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-20 03:59:52 --> Undefined constant "bagian_dprd"
+in APPPATH\Views\layout\tema.php on line 204.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layout/tema', [], true)
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('bagian_dprd/index', [], true)
+ 5 APPPATH\Controllers\BagianDPRDController.php(15): view('bagian_dprd/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BagianDPRDController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BagianDPRDController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-20 03:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-20 03:59:52 --> Undefined constant "bagian_dprd"
+in APPPATH\Views\layout\tema.php on line 204.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layout/tema', [], true)
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('bagian_dprd/index', [], true)
+ 5 APPPATH\Controllers\BagianDPRDController.php(15): view('bagian_dprd/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BagianDPRDController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BagianDPRDController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-20 03:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-20 03:59:52 --> Undefined constant "bagian_dprd"
+in APPPATH\Views\layout\tema.php on line 204.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layout/tema', [], true)
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('bagian_dprd/index', [], true)
+ 5 APPPATH\Controllers\BagianDPRDController.php(15): view('bagian_dprd/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BagianDPRDController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BagianDPRDController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-20 03:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-20 03:59:52 --> Undefined constant "bagian_dprd"
+in APPPATH\Views\layout\tema.php on line 204.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layout/tema', [], true)
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('bagian_dprd/index', [], true)
+ 5 APPPATH\Controllers\BagianDPRDController.php(15): view('bagian_dprd/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BagianDPRDController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BagianDPRDController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-20 04:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-20 04:03:21 --> Undefined constant "bagian_dprd"
+in APPPATH\Views\layout\tema.php on line 204.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layout/tema', [], true)
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('nama_pelaksana/index', [], true)
+ 5 APPPATH\Controllers\NamaPelaksanaController.php(17): view('nama_pelaksana/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\NamaPelaksanaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NamaPelaksanaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-20 04:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-20 04:03:23 --> Undefined constant "bagian_dprd"
+in APPPATH\Views\layout\tema.php on line 204.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layout/tema', [], true)
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('bagian_dprd/index', [], true)
+ 5 APPPATH\Controllers\BagianDPRDController.php(15): view('bagian_dprd/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BagianDPRDController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BagianDPRDController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-20 04:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-20 04:03:24 --> Undefined constant "bagian_dprd"
+in APPPATH\Views\layout\tema.php on line 204.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layout/tema', [], true)
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('perjalanan_dinas/create', [], true)
+ 5 APPPATH\Controllers\PerjalananDinasController.php(58): view('perjalanan_dinas/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PerjalananDinasController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerjalananDinasController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-20 04:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 04:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 04:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-20 04:03:27 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\kas\index.php on line 57.
+ 1 APPPATH\Views\kas\index.php(57): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\kas\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('kas/index', [], true)
+ 5 APPPATH\Controllers\KasController.php(16): view('kas/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\KasController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 04:03:27 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\kas\index.php on line 57.
+ 1 APPPATH\Views\kas\index.php(57): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\kas\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('kas/index', [], true)
+ 5 APPPATH\Controllers\KasController.php(16): view('kas/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\KasController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 04:03:27 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\kas\index.php on line 57.
+ 1 APPPATH\Views\kas\index.php(57): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\kas\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('kas/index', [], true)
+ 5 APPPATH\Controllers\KasController.php(16): view('kas/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\KasController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-20 04:03:27 --> Undefined constant "bagian_dprd"
+in APPPATH\Views\layout\tema.php on line 204.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layout/tema', [], true)
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('kas/index', [], true)
+ 5 APPPATH\Controllers\KasController.php(16): view('kas/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\KasController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-20 04:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-12-20 04:03:38 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\kas\index.php on line 57.
+ 1 APPPATH\Views\kas\index.php(57): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\kas\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('kas/index', [], true)
+ 5 APPPATH\Controllers\KasController.php(16): view('kas/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\KasController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 04:03:38 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\kas\index.php on line 57.
+ 1 APPPATH\Views\kas\index.php(57): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\kas\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('kas/index', [], true)
+ 5 APPPATH\Controllers\KasController.php(16): view('kas/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\KasController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-12-20 04:03:38 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\kas\index.php on line 57.
+ 1 APPPATH\Views\kas\index.php(57): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\kas\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('kas/index', [], true)
+ 5 APPPATH\Controllers\KasController.php(16): view('kas/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\KasController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-20 04:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 04:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 04:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 04:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 04:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 04:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 04:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 04:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 04:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 04:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

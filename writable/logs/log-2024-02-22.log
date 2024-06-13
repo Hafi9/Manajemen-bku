@@ -1,0 +1,226 @@
+INFO - 2024-02-22 15:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 15:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 15:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 15:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 15:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 15:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 15:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 15:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 15:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 15:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 15:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 15:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 15:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 15:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 15:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:19:08 --> ErrorException: Undefined variable $pengirimanUang
+in APPPATH\Views\pengiriman_uang\edit.php on line 15.
+ 1 APPPATH\Views\pengiriman_uang\edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengirimanUang', 'C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pengiriman_uang/edit', [], true)
+ 5 APPPATH\Controllers\PengirimanUangController.php(70): view('pengiriman_uang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PengirimanUangController->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanUangController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:21:06 --> ErrorException: Undefined variable $pengiriman
+in APPPATH\Views\pengiriman_uang\edit.php on line 15.
+ 1 APPPATH\Views\pengiriman_uang\edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengiriman', 'C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pengiriman_uang/edit', [], true)
+ 5 APPPATH\Controllers\PengirimanUangController.php(70): view('pengiriman_uang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PengirimanUangController->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanUangController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:21:06 --> ErrorException: Undefined variable $pengiriman
+in APPPATH\Views\pengiriman_uang\edit.php on line 15.
+ 1 APPPATH\Views\pengiriman_uang\edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengiriman', 'C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pengiriman_uang/edit', [], true)
+ 5 APPPATH\Controllers\PengirimanUangController.php(70): view('pengiriman_uang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PengirimanUangController->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanUangController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:21:07 --> ErrorException: Undefined variable $pengiriman
+in APPPATH\Views\pengiriman_uang\edit.php on line 15.
+ 1 APPPATH\Views\pengiriman_uang\edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengiriman', 'C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pengiriman_uang/edit', [], true)
+ 5 APPPATH\Controllers\PengirimanUangController.php(70): view('pengiriman_uang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PengirimanUangController->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanUangController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:21:07 --> ErrorException: Undefined variable $pengiriman
+in APPPATH\Views\pengiriman_uang\edit.php on line 15.
+ 1 APPPATH\Views\pengiriman_uang\edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengiriman', 'C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pengiriman_uang/edit', [], true)
+ 5 APPPATH\Controllers\PengirimanUangController.php(70): view('pengiriman_uang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PengirimanUangController->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanUangController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:21:07 --> ErrorException: Undefined variable $pengiriman
+in APPPATH\Views\pengiriman_uang\edit.php on line 15.
+ 1 APPPATH\Views\pengiriman_uang\edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengiriman', 'C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pengiriman_uang/edit', [], true)
+ 5 APPPATH\Controllers\PengirimanUangController.php(70): view('pengiriman_uang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PengirimanUangController->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanUangController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:21:45 --> ErrorException: Undefined variable $pengirimanUang
+in APPPATH\Views\pengiriman_uang\edit.php on line 15.
+ 1 APPPATH\Views\pengiriman_uang\edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengirimanUang', 'C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pengiriman_uang/edit', [], true)
+ 5 APPPATH\Controllers\PengirimanUangController.php(70): view('pengiriman_uang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PengirimanUangController->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanUangController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:24:31 --> ErrorException: Undefined variable $pengiriman
+in APPPATH\Views\pengiriman_uang\edit.php on line 15.
+ 1 APPPATH\Views\pengiriman_uang\edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengiriman', 'C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pengiriman_uang/edit', [], true)
+ 5 APPPATH\Controllers\PengirimanUangController.php(70): view('pengiriman_uang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PengirimanUangController->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanUangController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:24:32 --> ErrorException: Undefined variable $pengiriman
+in APPPATH\Views\pengiriman_uang\edit.php on line 15.
+ 1 APPPATH\Views\pengiriman_uang\edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengiriman', 'C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pengiriman_uang/edit', [], true)
+ 5 APPPATH\Controllers\PengirimanUangController.php(70): view('pengiriman_uang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PengirimanUangController->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanUangController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 15:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 15:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 15:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 15:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 15:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:25:16 --> ErrorException: Undefined variable $pengiriman
+in APPPATH\Views\pengiriman_uang\edit.php on line 15.
+ 1 APPPATH\Views\pengiriman_uang\edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengiriman', 'C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pengiriman_uang/edit', [], true)
+ 5 APPPATH\Controllers\PengirimanUangController.php(70): view('pengiriman_uang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PengirimanUangController->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanUangController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:26:30 --> ErrorException: Undefined variable $pengiriman
+in APPPATH\Views\pengiriman_uang\edit.php on line 40.
+ 1 APPPATH\Views\pengiriman_uang\edit.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengiriman', 'C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pengiriman_uang/edit', [], true)
+ 5 APPPATH\Controllers\PengirimanUangController.php(70): view('pengiriman_uang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PengirimanUangController->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanUangController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:26:32 --> ErrorException: Undefined variable $pengiriman
+in APPPATH\Views\pengiriman_uang\edit.php on line 40.
+ 1 APPPATH\Views\pengiriman_uang\edit.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengiriman', 'C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pengiriman_uang/edit', [], true)
+ 5 APPPATH\Controllers\PengirimanUangController.php(70): view('pengiriman_uang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PengirimanUangController->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanUangController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:26:32 --> ErrorException: Undefined variable $pengiriman
+in APPPATH\Views\pengiriman_uang\edit.php on line 40.
+ 1 APPPATH\Views\pengiriman_uang\edit.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengiriman', 'C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pengiriman_uang/edit', [], true)
+ 5 APPPATH\Controllers\PengirimanUangController.php(70): view('pengiriman_uang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PengirimanUangController->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanUangController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:26:33 --> ErrorException: Undefined variable $pengiriman
+in APPPATH\Views\pengiriman_uang\edit.php on line 40.
+ 1 APPPATH\Views\pengiriman_uang\edit.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengiriman', 'C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pengiriman_uang/edit', [], true)
+ 5 APPPATH\Controllers\PengirimanUangController.php(70): view('pengiriman_uang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PengirimanUangController->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanUangController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:26:33 --> ErrorException: Undefined variable $pengiriman
+in APPPATH\Views\pengiriman_uang\edit.php on line 40.
+ 1 APPPATH\Views\pengiriman_uang\edit.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengiriman', 'C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pengiriman_uang/edit', [], true)
+ 5 APPPATH\Controllers\PengirimanUangController.php(70): view('pengiriman_uang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PengirimanUangController->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanUangController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 15:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:26:36 --> ErrorException: Undefined variable $pengiriman
+in APPPATH\Views\pengiriman_uang\edit.php on line 40.
+ 1 APPPATH\Views\pengiriman_uang\edit.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengiriman', 'C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pengiriman_uang/edit', [], true)
+ 5 APPPATH\Controllers\PengirimanUangController.php(70): view('pengiriman_uang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PengirimanUangController->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanUangController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 15:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 15:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 15:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 15:35:30 --> ErrorException: Undefined variable $pengiriman
+in APPPATH\Views\pengiriman_uang\edit.php on line 15.
+ 1 APPPATH\Views\pengiriman_uang\edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengiriman', 'C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pengiriman_uang/edit', [], true)
+ 5 APPPATH\Controllers\PengirimanUangController.php(70): view('pengiriman_uang/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PengirimanUangController->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanUangController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

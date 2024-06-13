@@ -1,0 +1,77 @@
+CRITICAL - 2023-11-26 15:11:34 --> Undefined array key "sisa_anggaran"
+in APPPATH\Views\bagian_dprd\index.php on line 36.
+ 1 APPPATH\Views\bagian_dprd\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sisa_anggaran"', 'C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\bagian_dprd\\index.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\bagian_dprd\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('bagian_dprd/index', [], true)
+ 5 APPPATH\Controllers\BagianDPRDController.php(15): view('bagian_dprd/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BagianDPRDController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BagianDPRDController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 15:16:19 --> Undefined array key "sisa_anggaran"
+in APPPATH\Views\bagian_dprd\edit.php on line 11.
+ 1 APPPATH\Views\bagian_dprd\edit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sisa_anggaran"', 'C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\bagian_dprd\\edit.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\bagian_dprd\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('bagian_dprd/edit', [], true)
+ 5 APPPATH\Controllers\BagianDPRDController.php(47): view('bagian_dprd/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BagianDPRDController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BagianDPRDController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 15:24:40 --> Undefined array key "sisa_anggaran"
+in APPPATH\Views\bagian_dprd\edit.php on line 11.
+ 1 APPPATH\Views\bagian_dprd\edit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sisa_anggaran"', 'C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\bagian_dprd\\edit.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\bagian_dprd\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('bagian_dprd/edit', [], true)
+ 5 APPPATH\Controllers\BagianDPRDController.php(47): view('bagian_dprd/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\BagianDPRDController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BagianDPRDController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 16:15:51 --> Undefined variable $data
+in APPPATH\Views\nama_pelaksana\index.php on line 51.
+ 1 APPPATH\Views\nama_pelaksana\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\nama_pelaksana\\index.php', 51)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\nama_pelaksana\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('nama_pelaksana/index', [], true)
+ 5 APPPATH\Controllers\NamaPelaksanaController.php(16): view('nama_pelaksana/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\NamaPelaksanaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NamaPelaksanaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 16:26:48 --> Undefined variable $user
+in APPPATH\Views\role\index.php on line 28.
+ 1 APPPATH\Views\role\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\role\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\role\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('role/index', [], true)
+ 5 APPPATH\Controllers\RoleController.php(15): view('role/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\RoleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 16:31:48 --> Undefined variable $role
+in APPPATH\Views\perjalanan_dinas\index.php on line 81.
+ 1 APPPATH\Views\perjalanan_dinas\index.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\perjalanan_dinas\\index.php', 81)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\perjalanan_dinas\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('perjalanan_dinas/index', [], true)
+ 5 APPPATH\Controllers\PerjalananDinasController.php(18): view('perjalanan_dinas/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PerjalananDinasController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerjalananDinasController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-26 17:39:45 --> Undefined array key "nama_bagian"
+in APPPATH\Views\pengiriman_uang\index.php on line 76.
+ 1 APPPATH\Views\pengiriman_uang\index.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_bagian"', 'C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\index.php', 76)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Manajemen-bku\\app\\Views\\pengiriman_uang\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('pengiriman_uang/index', [], true)
+ 5 APPPATH\Controllers\PengirimanUangController.php(15): view('pengiriman_uang/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PengirimanUangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengirimanUangController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
